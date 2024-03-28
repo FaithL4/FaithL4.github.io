@@ -1,0 +1,107 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bbg.png);
+    height: 100vh;
+    width: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 50;
+}
+ .nav ul
+ {
+    list-style: none;
+    background-color: #bd1e43;
+    padding: 0;
+    margin: 0;
+    text-align:right;
+ }
+
+ .nav li{
+    display: inline-block;   
+ }
+ .nav a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align:center ;
+ }
+ .nav a:hover{
+    background: #353640;
+    border-radius: 10px;
+
+ }
+ ul{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+ }
+ .socials ul li{
+        display:block; 
+        margin-right: 1cm; /* Adjust the spacing here */
+        padding: 25px 20px;
+    }
+    .socials a:hover {
+    background-color:#ff004f;
+    transform: translate(-5px);
+    }
+    .socials a{
+        transition: 0ms;
+
+    }
+
+    .left{
+        padding: 25px 20px;
+    }
+    .color span{
+       color: #bd1e43; 
+    }
+    .centered-paragraph {
+        text-align:center;
+        font-style:italic;
+    }
+    .shapes{
+        height: fit-content;
+        width: fit-content;
+        text-align: center;
+    }
+    .left{
+        float: left;
+        margin-right: 20px;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        min-height: 100vh;
+        font-style:italic;
+        padding: 80px;
+    }
+    .pic{
+        max-width: 300px;
+        margin-top: 10px;
+        margin: auto;
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+    footer{
+
+        text-align: center;
+        padding: 0.5px 0;
+        background-color:#bd1e43;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
