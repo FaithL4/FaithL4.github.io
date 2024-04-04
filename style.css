@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(bbg.png);
+    background-color: #fbfbff;
     height: 100vh;
     width: 100;
     background-repeat: no-repeat;
